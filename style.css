@@ -1,0 +1,58 @@
+body {
+    background-color: #D5E1EF; 
+  
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.card   {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 320px;
+    height: 499px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin-bottom: auto; */
+
+}
+
+img {
+    border-radius: 15px;
+}
+
+.details-container {
+    background-color: #fff;
+    margin-top: auto;
+    /* padding:16px ; */
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 200px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.45;
+    border-radius: 20px;
+}
+
+.how-to {
+    color: #7d889e;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.45;
+    text-align: center;
+}
